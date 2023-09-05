@@ -1,7 +1,9 @@
 import { getTime } from "./ShowOnCards";
 import './cards.css';
 
-export const List = ({ data, key }) => {
+export const ConfirmationList = ({ data, key }) => {
+    //confirmationList: this functional component returns the list of the selected events to show on confirmation page
+
     return (
         <div className="list">
             <p>{data.event_name}</p>

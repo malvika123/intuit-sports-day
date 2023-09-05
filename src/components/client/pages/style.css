@@ -3,11 +3,11 @@
     border-color: white;
 }
 
-.confirm {
+.confirm-text {
     color: white
 }
 
-.data {
+.Show-Events {
     color: white;
 }
 
@@ -39,4 +39,14 @@
     width: 100px;
     font-weight: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.continue-button:hover{
+    background-color: palevioletred;
+    color:white;
+}
+
+.returnButton{
+    background-color: paleturquoise;
+    size: 20px;
 }

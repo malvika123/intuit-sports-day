@@ -8,15 +8,24 @@
     border-radius: 20px;
 }
 
-.heading1 {
-    color: black;
-    font-size: large;
+.all-event-sub-heading {
+    color: #c80e13;
+    text-shadow: 20px;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
 }
 
-.box {
+.all-event-box {
     align-items: center;
     display: inline;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+
+.loading{
+    align-self: center;
+    height: 40px;
+    width: 40px;
 }

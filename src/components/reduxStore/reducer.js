@@ -1,6 +1,6 @@
 import { REMOVE_SELECTED_ITEMS, SELECTED_ITEMS } from "./constant";
 
-export const allGames = (data = [], action) => {
+export const selectedGames = (data = [], action) => {
     switch (action.type) {
         case SELECTED_ITEMS: return [action.data, ...data];
         case REMOVE_SELECTED_ITEMS: {

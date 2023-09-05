@@ -1,4 +1,4 @@
-.eventsBody {
+.selectedEvent {
     float: left;
     margin-left: 10%;
     border-style: solid;
@@ -8,15 +8,14 @@
     width: 550px;
 }
 
-.box {
+.wrapper-box {
     display: inline;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-
 }
 
-.heading {
+.subheading {
     color: #c80e13;
     text-shadow: 20px;
     font-size: 30px;
