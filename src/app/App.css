@@ -1,0 +1,72 @@
+
+.App {
+  text-align: center;
+  background-color:  #241e60;
+  overflow:hidden;
+  padding: 15px;
+}
+
+/* CSS */
+.continue {
+  float: right;
+  align-items: center;
+  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  border: 0;
+  border-radius: 8px;
+  box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  display: flex;
+  font-family: Phantomsans, sans-serif;
+  font-size: 20px;
+  justify-content: center;
+  line-height: 1em;
+  max-width: 100%;
+  min-width: 140px;
+  padding: 19px 24px;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  cursor: pointer;
+  margin-right:20%;
+  margin-top: 5%;
+}
+
+.button-63:active,
+.button-63:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-63 {
+    font-size: 24px;
+    min-width: 196px;
+  }
+}
+
+.App-header{
+  font-size: 60px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 20px;
+  color: black;
+  margin-bottom: 20px;
+  background: url(https://i.pinimg.com/564x/b2/4c/c3/b24cc3eb40c6f98b0084da26d7a9272a.jpg);
+  border: #00DDEB;
+  border-style: solid;
+}
+
+.submit{
+  background-color: antiquewhite; 
+  display: block;
+}
+
+.note{
+  color: white;
+  font-size: medium;
+  font-weight: 400;
+  font-style: italic;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding-bottom: 20px;
+}

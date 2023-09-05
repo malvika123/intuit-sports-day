@@ -1,0 +1,22 @@
+.eventBody{
+    float: left;
+    margin-left: 2%;
+    border-style: solid;
+    padding: 35px;
+    background-color: white;
+    width: 550px;    
+    border-radius: 20px;
+}
+
+.heading1{
+color: black;
+font-size: large;
+}
+
+.box{
+    align-items: center;
+    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
