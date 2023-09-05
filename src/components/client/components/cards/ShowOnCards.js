@@ -7,6 +7,7 @@ export const SetAndShowOnCards = ({ data, isSelectedGame }) => {
     const dispatch = useDispatch();
     //fetching all selected events from the store
     const selectedEventDataInStore = useSelector((state) => state.selectedGames);
+    console.log(data.start_time,"oi");
     const conflictingEvents = getConflictingEvents(selectedEventDataInStore, data);
     const choiceLimit = selectedEventDataInStore.length < 3 && !conflictingEvents ? false : true;
     return (
@@ -18,7 +19,7 @@ export const SetAndShowOnCards = ({ data, isSelectedGame }) => {
             <div className='card'>
                 <p className='cardHeading'>{data.event_name}</p>
                 ({data.event_category})<br />
-                {getTime(data.start_time, data.end_time)}<br />
+                {data.start_time && data.end_time && getTime(data.start_time, data.end_time)}<br />
                 {/**As the card component is shared between sibling components allSelectedEvents and allEvents,
                  * We are passing a param(isSelectedGame) from parent class to this child component to  identify
                  * the sibling and then the respective button is shown.
@@ -36,10 +37,10 @@ export const SetAndShowOnCards = ({ data, isSelectedGame }) => {
  * 2. appens am/pm depending on time
  * 3. retuns time in hh:mm format */ 
 export const getTime = (startTime, endTime) => {
-    let start_time = startTime.split(" ")[1].split(":");
-    let end_time = endTime.split(" ")[1].split(":");
-    let startHr = parseInt(start_time[0]) % 12, startMin = parseInt(start_time[1]);
-    let endHr = parseInt(end_time[0]) % 12, endMin = parseInt(end_time[1]);
+    let start_time = startTime && startTime.split(" ")[1] && startTime.split(" ")[1].split(":");
+    let end_time = endTime && endTime.split(" ")[1] && endTime.split(" ")[1].split(":");
+    let startHr = parseInt(start_time && start_time[0]) % 12, startMin = parseInt(start_time && start_time[1]);
+    let endHr = parseInt(end_time && end_time[0]) % 12, endMin = parseInt(end_time && end_time[1]);
     let amOrPm = endHr % 12 > 0 ? 'pm' : 'am';
     startHr = startHr < 10 ? '0' + startHr : startHr;
     endHr = endHr < 10 ? '0' + endHr : endHr;
