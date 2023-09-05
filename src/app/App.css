@@ -1,8 +1,7 @@
-
 .App {
   text-align: center;
-  background-color:  #241e60;
-  overflow:hidden;
+  background-color: #241e60;
+  overflow: hidden;
   padding: 15px;
 }
 
@@ -10,7 +9,7 @@
 .continue {
   float: right;
   align-items: center;
-  background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);
+  background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB);
   border: 0;
   border-radius: 8px;
   box-shadow: rgba(151, 65, 252, 0.2) 0 15px 30px -5px;
@@ -30,7 +29,7 @@
   touch-action: manipulation;
   white-space: nowrap;
   cursor: pointer;
-  margin-right:20%;
+  margin-right: 20%;
   margin-top: 5%;
 }
 
@@ -46,9 +45,9 @@
   }
 }
 
-.App-header{
+.App-header {
   font-size: 60px;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   padding: 20px;
   color: black;
   margin-bottom: 20px;
@@ -57,12 +56,12 @@
   border-style: solid;
 }
 
-.submit{
-  background-color: antiquewhite; 
+.submit {
+  background-color: antiquewhite;
   display: block;
 }
 
-.note{
+.note {
   color: white;
   font-size: medium;
   font-weight: 400;

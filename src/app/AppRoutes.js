@@ -9,9 +9,9 @@ export const AppRoutes = () => {
     return (<div>
         <Router>
             <Routes>
-                <Route exact path="/" element={<div><HomePage/></div>} />
+                <Route exact path="/" element={<div><HomePage /></div>} />
                 <Route exact path="sportsDayEvents" element={<div><Main /></div>} />
-                <Route exact path="sportsDayEvents/confirmationPage" element={<div><ConfirmationPage/></div>} />
+                <Route exact path="sportsDayEvents/confirmationPage" element={<div><ConfirmationPage /></div>} />
             </Routes>
         </Router>
 

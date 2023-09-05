@@ -1,4 +1,4 @@
-.cards{
+.cards {
     background-color: white;
     margin-bottom: 20px;
     border-style: outset;
@@ -13,11 +13,12 @@
     padding: 20px;
     margin-right: 10px;
 }
-.cards:hover{
+
+.cards:hover {
     background-color: #fba92c;
 }
 
-.button{
+.button {
     background-color: cornflowerblue;
     margin: 5%;
     text-decoration: solid;
@@ -27,46 +28,47 @@
     border-radius: 10px;
 }
 
-.remove-button{
+.remove-button {
     background-color: red;
     margin: 5%;
     text-decoration: solid;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: white;
     font-size: medium;
-    border-radius: 10px ;
+    border-radius: 10px;
 }
-button:disabled{
-    background-color:grey;
-    }
 
-.cardHeading{
+button:disabled {
+    background-color: grey;
+}
+
+.cardHeading {
     margin-top: 10px;
-    color:  #007CC7;
+    color: #007CC7;
     font-weight: bold;
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     word-wrap: break-word;
 }
 
-.card{
+.card {
     color: #39603D;
     float: right;
 }
 
-.text{
+.text {
     font-size: 50px;
     color: #0049B7;
     padding-bottom: 30px;
-    float:left;
+    float: left;
 }
 
-.line{
+.line {
     width: 25px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
-.list{
+.list {
     border: 8px;
     border-style: outset;
     margin: 10px;

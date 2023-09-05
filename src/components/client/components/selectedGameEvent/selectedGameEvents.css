@@ -1,25 +1,25 @@
-.eventsBody{
+.eventsBody {
     float: left;
     margin-left: 10%;
     border-style: solid;
     padding: 35px;
     background-color: white;
     border-radius: 20px;
-    width: 550px;    
+    width: 550px;
 }
 
-.box{
+.box {
     display: inline;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    
+
 }
 
-.heading{
+.heading {
     color: #c80e13;
     text-shadow: 20px;
     font-size: 30px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 600;
 }

@@ -1,42 +1,42 @@
-.welcome-message{
+.welcome-message {
     color: white;
     border-color: white;
 }
 
-.confirm{
-    color:white
+.confirm {
+    color: white
 }
 
-.data{
+.data {
     color: white;
 }
 
-.event{
+.event {
     border-radius: 8px;
     border: 8px;
 }
 
-.heading{
+.heading {
     font-size: 20px;
     color: white;
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
 
-.image{
+.image {
     height: 25%;
     width: 25%;
 }
 
-.submitButton{
+.submitButton {
     background-color: paleturquoise;
     size: 20px;
 }
 
-.continue-button{
+.continue-button {
     background-color: white;
     color: black;
     height: 40px;
-    width:100px;
+    width: 100px;
     font-weight: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }

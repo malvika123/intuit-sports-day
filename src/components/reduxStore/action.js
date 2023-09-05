@@ -1,15 +1,15 @@
 import { REMOVE_SELECTED_ITEMS, SELECTED_ITEMS } from "./constant";
 
-export const seletedItemsList=(data)=>{
+export const seletedItemsList = (data) => {
     return {
-        type:SELECTED_ITEMS,
-        data:data
+        type: SELECTED_ITEMS,
+        data: data
     }
 }
 
-export const removeSeletedItemsList=(data)=>{
+export const removeSeletedItemsList = (data) => {
     return {
-        type:REMOVE_SELECTED_ITEMS,
-        data:data
+        type: REMOVE_SELECTED_ITEMS,
+        data: data
     }
 }

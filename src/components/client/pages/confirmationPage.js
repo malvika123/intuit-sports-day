@@ -15,7 +15,7 @@ export const ConfirmationPage = () => {
                 <div className="confirm">Please confirm the events you have added before proceeding</div>
 
                 {selectedList.map((obj, index) => <List data={obj} key={index + 1} />)}
-                <button className="submitButton" onClick={() => window.location='/'}>submit</button>
+                <button className="submitButton" onClick={() => window.location = '/'}>submit</button>
                 <button className="returnButton" onClick={() => navigate(-1)}>Return</button>
             </div>
 
