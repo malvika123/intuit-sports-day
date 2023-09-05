@@ -1,10 +1,12 @@
 import './App.css';
-import { RoutesInner } from './routes';
-function App() {
+import { AppRoutes } from './AppRoutes';
 
+/*AppRoutes: the following functional component is used to bring in the route and path mapping*/
+
+function App() {
   return (
-    <div className="App">   
-      <RoutesInner/>
+    <div className="App">
+      <AppRoutes />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-import { removeSeletedItemsList, seletedItemsList } from '../../../store/action';
+import { removeSeletedItemsList, seletedItemsList } from '../../../reduxStore/action';
 import './cards.css';
 import { useDispatch } from "react-redux";
 import { useSelector } from "react-redux";
